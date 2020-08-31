@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #4A99D3;
+    min-height: 110vh;
+    padding-top: 109px;
+
+}
+
+.container{
+    max-width: 798px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+h1, h2, p{
+    font-family: Open Sans;
+    color: #ffffff;
+}
+h1{
+    line-height: 49px;
+    font-size: 36px;
+    padding-bottom: 30px;
+    padding-left: 74px; 
+}
+h2{
+    line-height: 41px;
+    font-size: 30px;
+    padding: 18px 0;
+    padding-left: 74px;
+}
+p{
+    font-size: 14px;
+    line-height: 19px;
+    padding: 14px 71px 0 75px;
+
+}
+.blue{
+    background-color: rgba(33, 63, 99, 0.69);
+    padding-top: 42px;
+    min-height: 110vh;
+    position: relative;
+    z-index: 4;
+}
+.bird{
+    padding: 23px 71px 167px 66px;
+}
+.bird img{
+    display: inline-block;
+    padding-right: 18px;
+    height: 121px;
+    width: 121px;
+}
+.bird img:last-child{
+    padding-right: 0;
+}
+
+footer{
+    background-image: url(../images/grass.png);
+    height: 132px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    bottom: 0;
+}
+.cloud1{
+    position: absolute;
+    z-index: 1;
+    top: 56px;
+    left: -221px;
+    height: 188px;
+    width: 592px;
+    opacity: 50%;
+}
+.cloud2{
+    position: absolute;
+    z-index: 1;
+    top: 267px;
+    left: 41px;
+    height: 141px;
+    width: 213px;
+    opacity: 50%;
+}
+.cloud3{
+    position: absolute;
+    z-index: 1;
+    height: 188px;
+    width: 592px;
+    top: 220px;
+    right: -225px; 
+    opacity: 50%;
+}
+.cloud4{
+    position: absolute;
+    z-index: 5;
+    height: 158px;
+    width: 279px;
+    top: -79px;
+    right: -140px;
+}
+.social{
+    display: block;
+    position: absolute;
+    width: 38px;
+    height: 120px;
+    z-index: 5;
+ 
+
+}
+.social img{
+    width: 38px;
+}
+.social a{
+    
+}
